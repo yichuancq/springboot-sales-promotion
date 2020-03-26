@@ -12,6 +12,7 @@ import javax.persistence.MappedSuperclass;
  */
 @MappedSuperclass
 public abstract class AbstractPromotion extends BaseEntity {
+
     @Id
     @GeneratedValue
     @Column(name = "sale_promotion_id")
