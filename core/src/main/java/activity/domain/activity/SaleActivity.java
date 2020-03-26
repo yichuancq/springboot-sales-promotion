@@ -1,5 +1,6 @@
 package activity.domain.activity;
 
+import activity.domain.activity.base.BaseActivity;
 import activity.domain.goods.Goods;
 import activity.domain.goods.GoodsType;
 import activity.domain.promotion.SalePromotion;
@@ -17,7 +18,6 @@ import java.util.List;
  */
 @Entity
 public class SaleActivity extends BaseActivity {
-
     /**
      * 活动开始时间
      */

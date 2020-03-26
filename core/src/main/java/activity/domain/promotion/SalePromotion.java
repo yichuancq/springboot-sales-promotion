@@ -15,6 +15,7 @@ public class SalePromotion extends AbstractPromotion {
     @NotNull
     @Enumerated(EnumType.STRING)
     private SalePromotionType salePromotionType;
+
     /**
      * 促销方式详情
      */

@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  */
 @Entity
 public class Goods extends BaseEntity {
-
+    
     @Id
     @GeneratedValue
     @Column(name = "goods_id")

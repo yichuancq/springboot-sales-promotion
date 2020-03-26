@@ -1,4 +1,4 @@
-package activity.domain.activity;
+package activity.domain.activity.base;
 
 import activity.domain.base.BaseEntity;
 
